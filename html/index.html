@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveler</title>
+    <link rel="stylesheet" href="">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #111;
+            color: white;
+        }
+        .hero {
+            background: url('/image/3778371d9ea13cb35d00d8ec608f1a5a.jpg') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            background-color: rgba(0, 0, 0, 0.5); /* Added to make the image darker */
+            background-blend-mode: darken; /* Blend mode to darken the image */
+        }
+        
+        nav {
+            position: absolute;
+            top: 20px;
+            width: 700px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 50px;
+        }
+
+
+
+
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            padding: 0;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: 400 ;
+        }
+        .articles {
+            padding: 80px 10%;
+            background: #111;
+        }
+        .article {
+            display: flex;
+            align-items: center;
+            background: #222;
+            margin: 50px 0;
+            padding: 40px;
+            border-radius: 10px;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+        }
+        .article:nth-child(odd) {
+            flex-direction: row-reverse;
+        }
+        .article img {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-left: 100px;
+        }
+        .article:nth-child(odd) img {
+            margin-left: 0;
+            margin-right: 50px;
+        }
+        .article .text {
+            max-width: 600px;
+        }
+        .article h4 {
+            color: #f4b400;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        .article h2 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        .article p {
+            font-size: 16px;
+            color: #ddd;
+            line-height: 1.6;
+        }
+        .article a {
+            text-decoration: none;
+            color: #f4b400;
+            font-weight: bold;
+        }
+        footer {
+            background: #000000;
+      
+            padding: 40px;
+            margin-top: 40px;
+            
+            
+        }
+
+        p{
+            padding-left: 0px;
+        }
+        div text{ 
+            left: 20px;
+            
+        }
+.bek text{
+    padding-left: 100px; 
+
+}
+
+
+        
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <nav>  
+           <ul>
+            <li>
+                <a href="">TRAVELER</a>
+            </li>
+           </ul>
+            <ul>
+                <li><a href="#">Travel Guide</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Account</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h3>WELCOME</h3>
+            <h1>Explore New Horizons & Discover The World</h1>
+            <p>Discover new places, cultures, and adventures.</p>
+        </div>
+    </header>
+ <main>
+    <section class="articles">
+        <div class="article" style="display: flex; align-items: center; background: #252222; border-radius: 10px; overflow: hidden; padding: 20px; flex-direction: row-reverse;">
+            <img src="/image/711e4fbd730035f80ab953ac22515a59.jpg" alt="Traveler" style="width: 200px; height: 200px; border-radius: 50%; margin-left: 400px;">
+            <div>
+                <h4 style="color: orange; margin: 0;">GET STARTED</h4>
+                <h2 style="margin: 10px 0;">What kind of traveler are you?</h2>
+                <p>Learn more about adventure, solo, and backpacking travel.</p>
+                <a href="#" style="color: orange; text-decoration: none; font-weight: bold;">Read more →</a>
+            </div>
+        </div>
+    
+        <div class="article" style="display: flex; align-items: center; background: #222; border-radius: 10px; overflow: hidden; padding: 20px; flex-direction: row;">
+            <img src="/image/45653020aec7a691148d74028b456dfc.jpg" alt="Hiking" style="width: 200px; height: 200px; border-radius: 50%; margin-right: 400px;">
+            <div>
+                <h4 style="color: orange; margin: 0;">HIKING ESSENTIALS</h4>
+                <h2 style="margin: 10px 0;">Picking the right Hiking Gear!</h2>
+                <p>Essential hiking gear for your next adventure.</p>
+                <a href="#" style="color: orange; text-decoration: none; font-weight: bold;">Read more →</a>
+            </div>
+        </div>
+    
+        <div class="article" style="display: flex; align-items: center; background: #222; border-radius: 10px; overflow: hidden; padding: 20px; flex-direction: row-reverse;">
+            <img src="/image/da519cf39c42e34a43fcdfbb35a5f841.jpg" alt="Map" style="width: 200px; height: 200px; border-radius: 50%; margin-left: 400px;">
+            <div>
+                <h4 style="color: orange; margin: 0;">WHERE YOU GO IS THE KEY</h4>
+                <h2 style="margin: 10px 0;">Understand Your Map & Timing</h2>
+                <p>Learn to read maps and manage travel timing.</p>
+                <a href="#" style="color: orange; text-decoration: none; font-weight: bold;">Read more →</a>
+            </div>
+        </div>
+    </section>
+    
+    </main>
+    <footer>
+        <div style="display: flex; justify-content: space-between; align-items: start; max-width: 1200px; margin: auto; padding: 40px 20px; color: white;">
+            <div>
+                <h2>TRAVELER</h2>
+                <p>Get out there & discover your next <br> slope, mountain & destination.</p>
+            </div>
+            <div>
+                <h4 style="color: #f4b400;">More on The Blog</h4>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a href="#" style="color: white; text-decoration: none;">About MNTN</a></li><br>
+                    <li><a href="#" style="color: white; text-decoration: none;">Contributors & Writers</a></li><br>
+                    <li><a href="#" style="color: white; text-decoration: none;">Write For Us</a></li><br>
+                    <li><a href="#" style="color: white; text-decoration: none;">Contact Us</a></li><br>
+                    <li><a href="#" style="color: white; text-decoration: none;">Privacy Policy</a></li><br>
+                </ul>
+            </div>
+            <div>
+                <h4 style="color: #f4b400;">More on MNTN</h4>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a href="#" style="color: white; text-decoration: none;">The Team</a></li><br>
+                    <li><a href="#" style="color: white; text-decoration: none;">Jobs</a></li><br>
+                    <li><a href="#" style="color: white; text-decoration: none;">Press</a></li><br>
+                </ul>
+            </div>
+        </div>
+
+        </div>
+    </footer>
+    
+</body>
+</html>
